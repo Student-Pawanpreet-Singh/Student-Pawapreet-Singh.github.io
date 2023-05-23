@@ -16,6 +16,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -33,8 +35,8 @@
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">s
-              <ul class="navbar-nav d-flex">
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav">
                   <li class="nav-item">
                       <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
                   </li>
@@ -85,8 +87,43 @@
     <div class="text-center" id="project">
       <h1 class="text-decoration-underline">Projects</h1>
     </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-3 mx-4 col-md-3 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+      <div class="col-3 mx-4 col-md-3 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+      <div class="col-3 mx-4 col-md-3 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5 mb-5">
+      <div class="col-3 mx-4 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+      <div class="col-3 mx-4 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+      <div class="col-3 mx-4 bg-image hover-zoom">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded w-100"></a>
+      </div>
+    </div>
+    <!-- <div class="row mx-auto mt-5">
+      <div class="m-auto">
+      <div class="col col-4 col-md-2">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
+      </div>
+      <div class="col col-4 col-md-2">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
+      </div>
+      <div class="col col-4 col-md-2">
+        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
+      </div>
+    </div>
+    </div>
     <div class="row mx-auto mt-5">
-      <div class="flex-row d-flex justify-content-evenly">
+      <div class="m-atuo">
       <div class="col col-4 col-md-2">
         <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
       </div>
@@ -97,20 +134,10 @@
         <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
       </div>
     </div>
-    </div>
-    <div class="row mx-auto mt-5 mb-2">
-      <div class="flex-row d-flex justify-content-evenly">
-      <div class="col col-4 col-md-2">
-        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
-      </div>
-      <div class="col col-4 col-md-2">
-        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
-      </div>
-      <div class="col col-4 col-md-2">
-        <a href="a" class="project-img"><img src="img/images.png" class="rounded bg-image hover-zoom" width="300" height="300"></a>
-      </div>
-    </div>
-    </div>
+    </div> -->
+
+
+        
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <div>
@@ -119,7 +146,8 @@
               <div class="carousel-item active">
                   <div class="w-100 height" alt="First slide">
                       <div class="justify-content-center">
-
+                          <h1>Eventueel Skills</h1>
+                          <canvas></canvas>
                       </div>
                   </div>
               </div>
@@ -127,7 +155,7 @@
   </div>
   </main>
   <footer>
-    <!-- place footer here -->
+    <iframe src="" frameborder="0"></iframe>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
