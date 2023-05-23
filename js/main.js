@@ -31,7 +31,6 @@ function backToTop() {
 console.log('Main loaded');
 
 const backgroundColours = ['red', 'blue', 'yellow', 'green', 'purple', 'orange'];
-
 const chartExample = document.querySelector('.chart-skill-1');
 
 createChart(chartExample);
@@ -39,23 +38,39 @@ createChart(chartExample);
 function createChart(canvasElement) {
     new Chart(canvasElement, {
         type: 'bar',
+        axis: 'y',
         data: {
-            labels: ['T1H', 'T1J', 'T1K', 'T1L', 'T1M', 'T1N'],
+            labels: ['JavaScript', 'HTML', 'CSS', 'Bootstrap 5', 'PHP', 'SQL'],
             datasets: [{
-                backgroundColor: backgroundColours,
-                label: '# Aantal studenten per klas',
-                data: [20, 18, 21, 18, 17, 19],
-                borderWidth: 1
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.4)',
+                'rgba(255, 159, 64, 0.4)',
+                'rgba(255, 205, 86, 0.4)',
+                'rgba(75, 192, 192, 0.4)',
+                'rgba(54, 162, 235, 0.4)',
+                'rgba(153, 102, 255, 0.4)',
+                'rgba(201, 203, 207, 0.4)'
+              ],
+              borderColor: [
+                'rgb(255, 99, 132)',
+                'rgb(255, 159, 64)',
+                'rgb(255, 205, 86)',
+                'rgb(75, 192, 192)',
+                'rgb(54, 162, 235)',
+                'rgb(153, 102, 255)',
+                'rgb(201, 203, 207)'
+              ],
+                label: 'Skill Sets',
+                data: [7, 10, 9, 10, 6, 5, 1],
+                borderWidth: 1,
+                fill: false
             }]
         },
         options: {
+            indexAxis: 'y',
             responsive: true,
             maintainAspectRatio: true,
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
         }
     });
 }
+// -------------------
