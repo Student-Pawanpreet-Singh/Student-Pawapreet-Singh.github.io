@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/username.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vul in de player naam.</h1>
+    <div class="playername">
+        <h4><strong>Player X</strong></h4>
+        <input type="text"  class="player-one" title="Please enter your username" placeholder="Username X" autofocus required />
+        <br>
+        <h4><strong>Player O</strong></h4>
+        <input type="text" class="player-two" title="Please enter your username" placeholder="Username O" autofocus required />
+        <br>
+        <h4><strong>vs Computer</strong></h4>
+        <input onclick="disable()" type="checkbox" name="computer" id="computer">
+        <br>
+        <input type="button" value="Submit" class="submit-btn">
+        <input type="button" value="Clear Names" class="clear-name-button">
+    </div>
+
+    <script src="js/username.js"></script>
+</body>
+</html>

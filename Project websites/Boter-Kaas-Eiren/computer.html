@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boter-Kaas-Eiren</title>
+</head>
+<body>
+
+    <div>
+        <table class="scoreWrapper">
+            <tr class="headerScore">
+                <td class="background-Black">Highscore X</td>
+            </tr>
+            <tr class="scoreBoard">
+                <td class="background-DarkGray" id="highScoreX"></td>
+                <td class="background-DarkGray" id="highScoreO"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="wrapper">
+        <h1>Boter Kaas en Eiren.</h1>
+
+        
+        
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 class="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+        <button id="newGame">New Game</button>
+    </div>
+
+    <div class="playerContainer">
+        <h3 class="playerX"></h3>
+        <h4 class="scoreX"></h4>
+        <h4 class="scoreO"></h4>
+    </div>
+
+    <script src="js/computer.js"></script>
+</body>
+</html>
