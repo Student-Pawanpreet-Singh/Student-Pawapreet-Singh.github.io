@@ -1,0 +1,9 @@
+.place-bet{
+    width: 40px;
+    background-color: aqua;
+    margin: 10px;
+}
+.place-bet:hover{
+    background-color: rgb(71, 106, 106);
+    cursor: pointer;
+}

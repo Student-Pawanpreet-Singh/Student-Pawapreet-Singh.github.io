@@ -1,0 +1,14 @@
+/* THIS IS THE PLAYER BLOCK*/
+
+#Player-side{
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    padding: 5px;
+    float: right;
+    background-color: silver;
+}
+
+#Player-side .player-dice-wrapper .player-dice{
+
+}

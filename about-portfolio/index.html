@@ -6,19 +6,111 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="icon" href="../img/25b49fc4707057813641deee5ab650e6.jpg">
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
+    <header>
+        <!-- NAVBAR -->
+          <nav class="navbar navbar-expand-sm navbar-dark nav nav-color bg-color text-uppercase">
+              <div class="container">
+                <a class="navbar-brand" href="#">Portfolio <span>Pawan</span></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">About Portfolio</a>
+                      </li>
+                    </ul>
+                </div>
+          </div>
+        </nav>
+      </header>
   <main>
+    <div>
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="w-100 height">
+                        <div class="justify-content-center">
+                            <h1 class="text-center text-white text-decoration-underline" id="aboutMe">About</h1>
+                        </div>
+                        <div class="container d-flex align-items-center flex-column">
+                          <img src="img/about-me-removebg-preview.png" alt="" class="rounded"  width="200">
+                        </div>
+                        <div class="text-center text-white">
+                          <h5 class="typing text-center">
+                            Deze portfolio is een inspratie van een random webiste waar ik naar ideeen aan het keken was. <br>
+                            Ik heb deze idee gevonden om dan webiste zo te maken en ik vindt het heel mooi. <br>
+                            Ik heb ook geleerd hoe je een webiste kan checken of er fouten op staan of niet.
+                          </h5>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+  </div>
 
+ <h1 class="text-center text-white text-decoration-underline" id="insperation">Screen van Insperaties</h1>
+ <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img src="../img/Idea1.png" class="w-100 d-block img-fluid" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img src="../img/idea2.png" class="w-100 d-block img-fluid" alt="Second slide">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+ </div>
+ <div class="background-new" id="colorcode">
+    <div>
+        <h1 class="text-center text-white text-decoration-underline">Color Codes</h1>
+        <ul class="text-center text-white">
+            <li>
+                #2c3e50
+            </li>
+            <li>
+                #3333
+            </li>
+            <li>
+                #4FC3F7
+            </li>
+            <li>
+                #000000
+            </li>
+        </ul>
+    </div>
+  
+  <div class="container-md p-5 col-md-6">
+    <img src="../img/sitemap.png" alt="" class="img-fluid">
+  </div>
+</div>
   </main>
   <footer>
     <!-- place footer here -->

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger Lager</title>
+    <link rel="stylesheet" href="/cs/footer-body.css">
+    <link rel="stylesheet" href="/cs/index-npc.css">
+    <link rel="stylesheet" href="/cs/index.player.css">
+    <link rel="stylesheet" href="/cs/style.css">
+</head>
+<body>
+    
+    <div class="head">
+        <h1>Hoger Lager</h1>
+        <p><strong>BY: Pawan</strong></p>
+    </div>
+
+    <main id="NPC-side">
+        <div class="npc-dice-wrapper">
+            <h4>NPC</h4>
+            <img class="npc-dice-1"/>
+            <img class="npc-dice-2"/>
+        </div>
+        <div class="total-points">
+            <h3>Player Point:</h3><h3 class="bet-placed"></h3>
+        </div>
+        <div class="NPC-bet">
+        </div>
+    </main>
+
+    <main id="Player-side">
+        <div class="player-dice-wrapper">
+            <h4 class="player-name">Player</h4>
+            <img class="player-dice-1"/>
+            <img class="player-dice-2"/>
+        </div>
+        <div class="total-points">
+            <h3>Player Point:</h3><h3 class="bet-placed"></h3>
+        </div>
+        <div class="Player-name">
+
+        </div>
+    </main>
+    
+    <footer>
+        <div class="Button-hoog-laag">
+            <button class="higher" onclick="pressedHigh()">HOOG</button>
+            <button class="lower" onclick="pressedLow()">LAAG</button>
+        </div>
+        <button class="start" onclick="randomPlayerDice(), randomNpcDice()">
+            ROLL DICE
+        </button>
+
+        <button class="restart-btn">New Game</button>
+    </footer>
+
+    <script src="/js/main.js" type="text/javascript"></script>
+</body>
+</html>

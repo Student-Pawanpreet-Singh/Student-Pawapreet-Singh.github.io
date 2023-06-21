@@ -1,0 +1,83 @@
+/* THIS IS THE CSS FOR THE FOOTER AND BODY*/
+
+*{
+    margin: 0;
+}
+
+
+
+.head{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    clear: both;
+    top: 0;
+    left: 45%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+footer{
+    position: fixed;
+    clear: both;
+    left: 10%;
+    bottom: 0;
+    width: 80%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 1px solid silver;
+}
+
+.Button-hoog-laag{
+    border: 3px solid black;
+    width: 200px;
+    height: 150px;
+}
+
+footer .Button-hoog-laag .hoog{
+    background-color: darkblue;
+    width: 60px;
+    text-align: center;
+    color: yellow;
+    cursor: pointer;
+    float: left;
+}
+
+footer .Button-hoog-laag .hoog:hover{
+    background-color: yellow;
+    color: darkblue;
+}
+
+footer .Button-hoog-laag .laag{
+    background-color: darkblue;
+    width: 60px;
+    text-align: center;
+    color: yellow;
+    cursor: pointer; 
+    float: right;
+}
+
+footer .Button-hoog-laag .laag:hover{
+    background-color: yellow;
+    color: darkblue;
+}
+
+/* footer .start{
+    text-align: center;
+    border: 5px solid black;
+    width: 100px;
+    position: relative;
+    left: 45%;
+    background-color: darkblue;
+    margin: 10px;
+    clear: both;
+    padding: 10px;
+}
+
+footer .start:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: darkblue;
+} */
